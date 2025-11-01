@@ -19,3 +19,14 @@ class Excel extends Documentos {
         System.out.println("Su hoja de calculo exceld es:");
     }
 }
+class Main {
+public static void main(String[] args) {
+    Word word = new Word();
+    Excel excel = new Excel();
+    Documentos documentos = new Documentos();
+    word.Exportar();
+    excel.Exportar();
+    documentos.Exportar();
+}
+    
+}
