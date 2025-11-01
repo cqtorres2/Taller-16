@@ -26,7 +26,7 @@ public static void main(String[] args) {
     Documentos documentos = new Documentos();
     word.Exportar();
     excel.Exportar();
-    documentos.Exportar();
+    
 }
     
 }
