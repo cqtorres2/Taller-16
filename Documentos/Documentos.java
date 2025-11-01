@@ -24,6 +24,7 @@ public static void main(String[] args) {
     Word word = new Word();
     Excel excel = new Excel();
     Documentos documentos = new Documentos();
+    documentos.Exportar();
     word.Exportar();
     excel.Exportar();
     
